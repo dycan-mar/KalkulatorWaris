@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <title>Kalkulator waris</title>
+    <link rel="icon" type="image/png" href="assets/img/logo_title.png">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-transparant shadow-sm  shadow" id="navbar">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="assets/img/logo_warisku.png" alt="Warisku Logo" width="160" class="img-responsive me-2">
+            </a>
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa fa-bars text-light"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav text-center ">
+                    <li class="nav-item py-2 py-lg-0">
+                        <a class="nav-link fw-semibold text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item py-2 py-lg-0">
+                        <a class="nav-link fw-semibold text-white" href="#pengertian">Pengertian</a>
+                    </li>
+                    <li class="nav-item py-2 py-lg-0">
+                        <a class="nav-link fw-semibold text-white" href="#dalil">Dalil-Dalil</a>
+                    </li>
+                    <li class="nav-item py-2 py-lg-0">
+                        <a class="nav-link fw-semibold text-white " href="#calculate">Calculate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero py-3" id="hero">
+        <div class="container text-center py-5 my-5" style="padding-top: 5rem;">
+            <div class="py-md-3 my-5">
+                <div class="mb-4">
+                    <h1 class="fw-bold fs-1 fs-md-5 text-white mb-1" data-aos="fade-up" data-aos-duration="1000">
+                        Kalkulator Waris Islam
+                    </h1>
+                    <h5 class=" text-white mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        Akurat, Adil, dan Sesuai Syariat
+                    </h5>
+                    <p class=" text-white px-md-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                        Hitung bagian waris dengan mudah berdasarkan <strong class="text-warning">Al-Qur'an</strong> dan
+                        <strong class="text-warning">fiqih mazhab Syafi'i</strong>. Dilengkapi dengan penjelasan dan
+                        dalil yang mendalam.
+                    </p>
+                </div>
+
+                <div class="d-flex justify-content-center gap-3 mt-4 flex-wrap">
+                    <a href="#dalil" class="btn btn-outline-warning btn-lg px-4 py-2 hero-btn-secondary "
+                    data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
+                        <i class="fa fa-book-open me-2"></i> Lihat Dalil
+                    </a>
+                    <a href="#kalkulator"
+                        class="btn btn-warning btn-lg px-4 py-2 shadow hero-btn-primary text-dark fw-bold" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
+                        <i class="fa fa-scale-balanced me-2"></i> Hitung Sekarang
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section px-md-5" id="pengertian">
+        <div class="border-l p-3 px-md-5">
+            <h2 class="section-title" data-aos="fade-up" >
+                <i class="fas fa-book-quran"></i>
+                Tentang Waris dalam Islam
+            </h2>
+
+            <div class="about-content" >
+                <p data-aos="fade-up" data-aos-delay="100">
+                    Waris dalam Islam, atau yang dikenal sebagai ilmu faraidh, adalah ilmu yang mengatur pembagian harta
+                    peninggalan seseorang yang telah meninggal dunia kepada ahli waris yang berhak. Ilmu ini
+                    berlandaskan pada Al-Qur'an, khususnya Surah An-Nisa ayat 11-12 dan ayat 176, hadis Nabi Muhammad
+                    SAW, serta ijma' ulama dalam mazhab Syafi'i. Tujuan utamanya adalah memastikan keadilan dalam
+                    pembagian harta, mencegah konflik keluarga, dan memenuhi hak setiap ahli waris sesuai syariat.
+                </p>
+
+                <div class="about-highlight" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-quote-left"></i>
+                    <strong>Dalil Utama:</strong> "Allah mensyariatkan bagimu tentang (pembagian waris untuk)
+                    anak-anakmu, yaitu bagian seorang anak laki-laki sama dengan bagian dua anak perempuan..." (QS.
+                    An-Nisa: 11).
+                </div>
+
+                <p data-aos="fade-up" data-aos-delay="100">
+                    Dalam fiqih Syafi'i, pembagian waris mempertimbangkan beberapa aspek penting, seperti jenis ahli
+                    waris (misalnya, anak, orang tua, pasangan), jumlah harta peninggalan, serta adanya kewajiban
+                    seperti wasiat, utang, atau biaya pengurusan jenazah yang harus diselesaikan terlebih dahulu. Proses
+                    ini melibatkan perhitungan yang cermat untuk menentukan bagian masing-masing ahli waris, seperti
+                    <em>ashabah</em> (ahli waris yang mendapat sisa harta) atau <em>dzawil furudh</em> (ahli waris
+                    dengan bagian tetap).
+                </p>
+
+                <ul class="dalil-list">
+                    <li data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-check-circle"></i>
+                        <span><strong>Dzawil Furudh:</strong> Ahli waris yang mendapat bagian tetap, seperti istri (1/8
+                            jika ada anak), anak perempuan (1/2 jika tunggal), atau ibu (1/6).</span>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-check-circle"></i>
+                        <span><strong>Asbabah:</strong> Ahli waris yang menerima sisa harta setelah dzawil furudh,
+                            seperti anak laki-laki atau ayah.</span>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-check-circle"></i>
+                        <span><strong>Hajb:</strong> Kondisi di mana keberadaan ahli waris tertentu dapat mengurangi
+                            atau menghalangi hak waris pihak lain.</span>
+                    </li>
+                </ul>
+
+                <p data-aos="fade-up" data-aos-delay="100">
+                    Kalkulator waris ini dirancang untuk mempermudah perhitungan bagian waris dengan akurat, dilengkapi
+                    penjelasan dalil syariat agar pengguna memahami prosesnya secara mendalam. Dengan pendekatan ini,
+                    kami berharap dapat membantu umat Islam menjalankan kewajiban waris sesuai ajaran Al-Qur'an dan
+                    Sunnah.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- dalil -->
+    <section class="dalil-section px-md-5" id="dalil">
+        <div class="border-l p-3 px-md-5">
+
+            <h2 class="section-title " data-aos="fade-up" >
+                <i class="fas fa-book-quran"></i>
+                Dalil-Dalil Waris dalam Islam
+            </h2>
+
+            <div class="dalil-content">
+                <p class="lead  dalil-text" data-aos="fade-up" data-aos-delay="100">
+                    Ilmu waris (faraidh) dalam Islam didasarkan pada dalil-dalil syariat yang jelas dari Al-Qur'an dan
+                    Sunnah. Dalam mazhab Syafi'i, dalil utama diambil dari Al-Qur'an, khususnya Surah An-Nisa ayat 11-12
+                    dan 176, serta hadis-hadis sahih yang menjelaskan tata cara pembagian harta warisan. Berikut adalah
+                    dalil-dalil utama beserta penjelasannya.
+                </p>
+
+                <div class="dalil-highlight" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="arabic-text">
+                        يُوصِيكُمُ اللَّهُ فِي أَوْلَادِكُمْ ۖ لِلذَّكَرِ مِثْلُ حَظِّ الْأُنْثَيَيْنِ
+                    </p>
+                    <p class="translation-text fs-6">
+                        "Allah mensyariatkan bagimu tentang (pembagian waris untuk) anak-anakmu, yaitu bagian seorang
+                        anak laki-laki sama dengan bagian dua anak perempuan..." (QS. An-Nisa: 11).
+                    </p>
+                </div>
+
+                <ul class="dalil-list">
+                    <li data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-book-open"></i>
+                        <span class="dalil-text">
+                            <strong>QS. An-Nisa: 11</strong>
+                            <p class="arabic-text">
+                                يُوصِيكُمُ اللَّهُ فِي أَوْلَادِكُمْ ۖ لِلذَّكَرِ مِثْلُ حَظِّ الْأُنْثَيَيْنِ ۚ فَإِنْ
+                                كُنَّ نِسَاءً فَوْقَ اثْنَتَيْنِ فَلَهُنَّ ثُلُثَا مَا تَرَكَ ۖ وَإِنْ كَانَتْ وَاحِدَةً
+                                فَلَهَا النِّصْفُ
+                            </p>
+                            <p class="translation-text">
+                                Mengatur pembagian waris untuk anak dan orang tua. Misalnya, anak perempuan tunggal
+                                mendapat 1/2 harta, anak perempuan dua atau lebih mendapat 2/3, dan ibu mendapat 1/6
+                                jika ada anak.
+                            </p>
+                        </span>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-book-open"></i>
+                        <span class="dalil-text">
+                            <strong>QS. An-Nisa: 12</strong>
+                            <p class="arabic-text">
+                                وَلَكُمْ نِصْفُ مَا تَرَكَ أَزْوَاجُكُمْ إِنْ لَمْ يَكُنْ لَهُنَّ وَلَدٌ ۚ فَإِنْ كَانَ
+                                لَهُنَّ وَلَدٌ فَلَكُمُ الرُّبُعُ مِمَّا تَرَكْنَ
+                            </p>
+                            <p class="translation-text">
+                                Menjelaskan bagian untuk pasangan. Suami mendapat 1/2 jika tidak ada anak, atau 1/4 jika
+                                ada anak. Istri mendapat 1/4 jika tidak ada anak, atau 1/8 jika ada anak.
+                            </p>
+                        </span>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-book-open"></i>
+                        <span class="dalil-text">
+                            <strong>QS. An-Nisa: 176</strong>
+                            <p class="arabic-text">
+                                يَسْتَفْتُونَكَ قُلِ اللَّهُ يُفْتِيكُمْ فِي الْكَلَالَةِ ۚ إِنِ امْرُؤٌ هَلَكَ لَيْسَ
+                                لَهُ وَلَدٌ وَلَهُ أُخْتٌ فَلَهَا نِصْفُ مَا تَرَكَ
+                            </p>
+                            <p class="translation-text">
+                                Mengatur waris untuk saudara kalalah (tanpa anak atau ayah). Saudara perempuan mendapat
+                                1/2 jika tunggal, atau 2/3 jika lebih dari satu.
+                            </p>
+                        </span>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-hadith"></i>
+                        <span class="dalil-text">
+                            <strong>Hadis Sahih</strong>
+                            <p class="arabic-text">
+                                اعطوا الفرائض لأهلها، فما بقي فلأولى رجل ذكر
+                            </p>
+                            <p class="translation-text">
+                                Rasulullah SAW bersabda, "Berikan bagian waris kepada yang berhak, dan sisanya untuk
+                                ashabah yang paling dekat." (HR. Bukhari dan Muslim).
+                            </p>
+                        </span>
+                    </li>
+                </ul>
+
+                <p class="lead dalil-text" data-aos="fade-up" data-aos-delay="100">
+                    Dalam fiqih Syafi'i, dalil-dalil ini menjadi landasan untuk menghitung bagian waris seperti
+                    <em>dzawil furudh</em> (bagian tetap), <em>ashabah</em> (sisa harta), dan <em>hajb</em>
+                    (penghalangan waris). Kalkulator waris ini menggunakan dalil-dalil tersebut untuk memberikan hasil
+                    yang akurat dan sesuai syariat, dengan penjelasan yang mudah dipahami.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- kalkulator -->
+    <section class="calculate-section px-md-5" id="calculate">
+        <div class="border-l p-3 px-md-5">
+            <div class="section-title " data-aos="fade-up" >
+                <i class="fa fa-book-quran"></i>
+                Hitung Bagian Waris
+            </div>
+            <div class="dalil-content">
+                <p class="lead" data-aos="fade-up" data-aos-delay="100">
+                    Masukkan data pewaris dan ahli waris untuk menghitung pembagian harta secara akurat berdasarkan
+                    Al-Qur'an (An-Nisa: 11-12, 176) dan hadis Nabi SAW. Pastikan harta telah dikurangi utang, wasiat
+                    (maks. 1/3), dan biaya jenazah.
+                </p>
+                <form action="" id="warisForm" class="bg-light p-4 rounded">
+                    <div class="row g-3" id="form1" data-aos="fade-up" data-aos-delay="150>
+                        <div class="col-md-6">
+                            <label for="harta" class="form-label"><i class="fas fa-coins me-2"></i> Total Harta
+                                Peninggalan (Rp)</label>
+                            <input type="number" class="form-control" id="harta" min="0" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="jenisPewaris" class="form-label"><i class="fas fa-user me-2"></i> Jenis Kelamin
+                                Pewaris</label>
+                            <select class="form-select" id="jenisPewaris" required>
+                                <option value="">Pilih...</option>
+                                <option value="laki">Laki-laki</option>
+                                <option value="perempuan">Perempuan</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-section mt-3">
+                        <h4><i class="fas fa-users me-2"></i> Ahli Waris (Dzawil Furudh & Ashabah)</h4>
+                        <div class="row g-3">
+                            <div class="col-12" id="perempuan">
+                                <label for="suami" class="form-label">Jumlah Suami (jika pewaris perempuan)</label>
+                                <input type="number" class="form-control nikah" id="suami" min="0" max="1" value="0">
+                            </div>
+                            <div class="col-12" id="laki">
+                                <label for="istri" class="form-label">Jumlah Istri (jika pewaris laki-laki)</label>
+                                <input type="number" class="form-control nikah" id="istri" min="0" value="0">
+                            </div>
+                            <div class="row" id="anak">
+                                <div class="col-md-6">
+                                    <label for="anakLaki" class="form-label">Jumlah Anak Laki-laki</label>
+                                    <input type="number" class="form-control input-check" id="anakLaki" min="0"
+                                        value="0">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="anakPerempuan" class="form-label">Jumlah Anak Perempuan</label>
+                                    <input type="number" class="form-control input-check" id="anakPerempuan" min="0"
+                                        value="0">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="ayah" class="form-label">Ayah (1 jika ada)</label>
+                                <input type="number" class="form-control input-check" id="ayah" min="0" max="1"
+                                    value="0">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="ibu" class="form-label">Ibu (1 jika ada)</label>
+                                <input type="number" class="form-control input-check" id="ibu" min="0" max="1"
+                                    value="0">
+                            </div>
+                            <div class="col-md-6 saudara">
+                                <label for="saudaraLaki" class="form-label">Jumlah Saudara Laki-laki (jika tidak ada
+                                    anak/ayah)</label>
+                                <input type="number" class="form-control" id="saudaraLaki" min="0" value="0">
+                            </div>
+                            <div class="col-md-6 saudara">
+                                <label for="saudaraPerempuan" class="form-label">Jumlah Saudara Perempuan (jika tidak
+                                    ada anak/ayah)</label>
+                                <input type="number" class="form-control" id="saudaraPerempuan" min="0" value="0">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end">
+
+                            <button type="button" class="btn btn-dark mt-3 " id="btn-calculate"><i
+                                    class="fas fa-calculator me-2"></i> Hitung Waris</button>
+                        </div>
+
+                </form>
+                <div id="result" class="mt-4">
+                    <h4><i class="fas fa-table me-2"></i> Hasil Pembagian Waris</h4>
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th>Ahli Waris</th>
+                                <th>Bagian</th>
+                                <th>Jumlah (Rp)</th>
+                            </tr>
+                        </thead>
+                        <tbody id="warisTableBody"></tbody>
+                    </table>
+                    <p id="totalHarta" class="fw-bold"></p>
+                    <div class="dalil">
+                        <h5><i class="fas fa-book me-2"></i> Penjelasan Dalil</h5>
+                        <p id="dalilText"></p>
+                        <p class="arabic">يُوصِيكُمُ اللَّهُ فِي أَوْلَادِكُمْ ۖ لِلذَّكَرِ مِثْلُ حَظِّ الْأُنْثَيَيْنِ
+                        </p>
+                        <p>(QS. An-Nisa: 11) - "Allah mensyariatkan bagimu tentang (pembagian waris untuk) anak-anakmu,
+                            yaitu bagian seorang anak laki-laki sama dengan bagian dua anak perempuan..."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/interaktif.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(() => {
+            AOS.init({
+                duration: 1000, // Durasi animasi (ms)
+                startEvent: 'DOMContentLoaded', // Mulai saat DOM selesai dimuat
+                disable: false // Pastikan animasi aktif
+            });
+
+            // Memaksa animasi langsung berjalan untuk elemen di viewport
+            AOS.refreshHard();
+        });    </script>
+</body>
+
+</html>

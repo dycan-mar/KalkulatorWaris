@@ -1,0 +1,219 @@
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap);
+
+:root {
+    --prime: #212529;
+    --second: #ffc107;
+}
+
+* {
+    font-family: 'Noto Sans Arabic', serif;
+}
+
+.nav-link {
+    font-size: 1.01rem;
+    padding: 0 20px !important;
+    color: white !important;
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s ease-in-out;
+}
+
+.hero {
+    background: linear-gradient(180deg, #212529 10%, #ffffff 100%);
+    height: 90vh;
+}
+
+
+/* pengertian waris section */
+.about-section {
+    padding: 40px 30px;
+    margin: 20px auto;
+}
+
+.border-l {
+    border-left: 5px solid var(--prime);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.section-title {
+    color: var(--prime);
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.section-title i {
+    margin-right: 15px;
+    color: var(--prime);
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: var(--prime);
+    border-radius: 2px;
+}
+
+.about-content p {
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.about-highlight {
+    background-color: #ebedf8;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid var(--prime);
+    margin: 25px 0;
+}
+
+.about-highlight i {
+    color: var(--prime);
+    margin-right: 10px;
+}
+
+.dalil-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.dalil-list li {
+    padding: 10px 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.dalil-list li i {
+    color: var(--prime);
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+
+.dalil-section {
+    padding: 40px 30px;
+    margin: 40px auto;
+}
+
+.dalil-text {
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+.dalil-content p {
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 20px;
+
+}
+
+.arabic-text {
+    font-family: 'Noto Naskh Arabic', sans-serif;
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    direction: rtl;
+    text-align: right;
+    color: var(--prime);
+    margin-bottom: 10px;
+}
+
+.translation-text {
+    font-style: italic;
+    color: #555;
+}
+
+.calculate-section {
+    padding: 40px 30px;
+    margin: 40px auto;
+}
+
+@media (min-width:992px) {
+    .navbar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1000;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav-link:hover {
+        color: var(--second) !important;
+    }
+
+    .nav-link::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: -28px;
+        /* Jarak garis dari teks */
+        width: 0;
+        height: 3px;
+        color: var(--second);
+        background-color: var(--second);
+        transition: all 0.4s ease-in-out;
+        transform: translateX(-50%);
+    }
+
+    .nav-link:hover::after,
+    .nav-link.active::after {
+        width: 100%;
+    }
+
+    .nav-link.active {
+        color: #ffc107 !important;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width:991px) {
+    .navbar {
+        background-color: var(--prime);
+    }
+
+    .hero {
+        background: linear-gradient(180deg, #212529 0%, #ffffff 100%);
+    }
+
+    .about-section {
+        padding: 30px 20px;
+        margin: 20px 10px;
+    }
+
+    .section-title {
+        font-size: 1.4rem;
+    }
+
+    .about-content p {
+        font-size: 0.9rem;
+    }
+
+    .dalil-content p,
+    .dalil-text,
+    .translation-text {
+        font-size: 0.9rem;
+    }
+
+    .arabic-text {
+        font-size: 1.1rem;
+    }
+
+    .dalil-section {
+        padding: 30px 20px;
+        margin: 20px 10px;
+    }
+}
